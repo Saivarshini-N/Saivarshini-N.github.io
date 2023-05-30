@@ -1,2 +1,1 @@
-//alert("Hello I'm Varshini");
-console.log()
+alert("Hello I'm Varshini");
