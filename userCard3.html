@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset = "UTF-8">
-    <meta http-equiv = "X-UA-Compatible" content="IE=edge">
-    <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="style.css">
-    <title>User Card 2</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Card 3</title>
+    <link rel="stylesheet" href="userCard2.css">
+
 </head>
 <body>
-    <h1>User Card 3</h1>
-    <div class="card">
-        <img class="image" id="myimage" src="Current.jpg" alt="">
-            <p id="myname" class="name"><b>Saivarshini</b></p>
-            <p id="mydesig" class="designation"><b>Student</b></p>
+    <div class="container">
+        <h1>User Card 3</h1>    
+        <div class = "card">
+            <img class="childImage" id = "myChildImg" src="./childhood.jpg" alt="" style="width: 90%; height: 25%;">
+            <p class="name" id="myFirstName">Saivarshini</p>
+            <p class="designation" id="myDesignation">Student</p>
+        </div>
 
-    </div>
-    <button onclick="changemypic()" class="toggle">Change the User </button>  
+        <button onclick="changeMyPic()" class="toggleButton">Change the user</button>
     </div>
     <script src="./script2.js"></script>
+
 </body>
+</html>
