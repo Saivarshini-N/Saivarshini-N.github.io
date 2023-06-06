@@ -13,9 +13,6 @@
 .card:hover{
     box-shadow: 0 14px 18px 0 rgba(9, 191, 223, 0.265);
 }
-/* .card::after:hover {
-    box-shadow: 0 14px 18px 0 rgba(71, 204, 4, 0.557);
-} */
 .name{
     font-size: 25px;
     font-weight: bold;
