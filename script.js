@@ -1,5 +1,5 @@
 var data1 = {image:"./Current.jpg",name:"Saivarshini",designation:"Student"}
-var data2 = {image:"./childhood.jpg",name:"Varshi",designation:"Student"}
+var data2 = {image:"./childhood.jpg",name:"Varshi",designation:"SDE"}
 var isData1 = true;
 var displayData;
 var changeMyPic = function(){
