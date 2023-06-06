@@ -1,17 +1,17 @@
-var data1={image : "Current.jpg",name : "Saivarshini", designation:"Student"};
-var data2={image: "childhood.jpg",name : "Varshi", designation:"Student"};
-var isdata1 = true;
-var displaydata;
-var changemypic = function(){
-    if(isdata1){
-        displaydata= data2;
-        isdata1 = false;
+var data1 = {image:"./Current.jpg",name:"Saivarshini",designation:"Student"}
+var data2 = {image:"./childhood.jpg",name:"Varshi",designation:"Student"}
+var isData1 = true;
+var displayData;
+var changeMyPic = function(){
+    if(isData1){
+        displayData = data2;
+        isData1 = false;
     }
     else{
-        displaydata = data1;
-        isdata1=true;
+        displayData = data1;
+        isData1 = true;
     }
-    document.getElementById("myimage").src=displaydata.image;
-    document.getElementById("myname").innerHTML=displaydata.name;
-    document.getElementById("mydesig").innerHTML=displaydata.designation;
+    document.getElementById("myImage").src = displayData.image;
+    document.getElementById("myName").innerHTML=displayData.name;
+    document.getElementById("myDsng").innerHTML=displayData.designation;
 }
