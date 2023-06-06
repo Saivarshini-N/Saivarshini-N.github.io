@@ -25,3 +25,7 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.toggle{
+    background-color: rgba(0, 0, 255, 0.63);
+    color: antiquewhite;
+}
