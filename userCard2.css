@@ -25,12 +25,3 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-.toggle-btn {
-    /* Default color */
-    background-color: gray;
-    color: white;
-  }
-
-  .toggle-btn:checked {
-    background-color: blue;
-  }
