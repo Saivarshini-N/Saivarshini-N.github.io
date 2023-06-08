@@ -1,4 +1,10 @@
 p {text-align: center;}
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #0f0f0f;
+}
 table th {
     background-color: #eaf69d59;
     font-weight: bold;
