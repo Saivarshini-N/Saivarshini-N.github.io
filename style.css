@@ -2,3 +2,10 @@ p {text-align: center;}
 th, td{
     background-color: #e8a7df
 }
+table th {
+    background-color: #eaf69d59;
+    font-weight: bold;
+  }
+  table tr:nth-child(odd) {
+    background-color: #f69de1c9;
+  }
